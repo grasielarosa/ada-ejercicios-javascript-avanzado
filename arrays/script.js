@@ -84,3 +84,12 @@
 // console.log(estanJuntos(['Sam', 'Frodo', 'Legolas']));
 // console.log(estanJuntos(['Aragorn', 'Frodo', 'Sam']));
 // console.log(estanJuntos(['Sam', 'Orco', 'Frodo']));
+
+// ------------ ##ejercicio 7 - Separar
+
+// const separar = (string) => {
+//     const arrayEmojis = string.sort().reverse();
+//         // --- solamente usar sort para ordenar, el reverse es para que cat quede antes que dog.
+//     return arrayEmojis;    
+//     }
+// console.log(separar(['🐶','🐱','🐶','🐱','🐱','🐶','🐶']));
