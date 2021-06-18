@@ -71,3 +71,16 @@
 // console.log(gano(['💫', '💫', '💫', '💫', '💫']));
 // console.log(gano(['💫', '💫', '💫', '💫', '💫', '⭐️']));
 
+
+// ------------ ##ejercicio 6 - Estan Juntos
+// const estanJuntos = (personajes) => {
+//     const frodo = personajes.indexOf('Frodo');
+//     const sam = personajes.indexOf('Sam');
+//         // --- con idexOf buscamos los nombres.
+//     return sam-frodo===1 || sam-frodo === -1;
+//         // --- con la equación descubrimos la posición que uno está en referéncia al otro.
+
+//     }
+// console.log(estanJuntos(['Sam', 'Frodo', 'Legolas']));
+// console.log(estanJuntos(['Aragorn', 'Frodo', 'Sam']));
+// console.log(estanJuntos(['Sam', 'Orco', 'Frodo']));
