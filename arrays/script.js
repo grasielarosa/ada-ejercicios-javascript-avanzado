@@ -93,3 +93,25 @@
 //     return arrayEmojis;    
 //     }
 // console.log(separar(['🐶','🐱','🐶','🐱','🐱','🐶','🐶']));
+
+
+// ------------ ##ejercicio 8 - Chat Status
+
+// const obtenerChatStatus = (usuarias) => {
+//     for (let i=0; i<usuarias.length; i++) {
+//       if (usuarias.length === 1){
+//         return (`${usuarias[0]} está conectada`);
+//       } else if (usuarias.length === 2){
+//         return (`${usuarias[0]} y ${usuarias[1]} están conectadas`);
+//       } else if (usuarias.length > 2){
+//         const otrasUsuarias = usuarias.length - 2; //puse menos dos, porque los indices [0] y [1] ya estarán en el return. 
+//         return(`${usuarias[0]}, ${usuarias[1]} y ${otrasUsuarias} persona(s) más están conectadas`);
+//       }
+//     }
+//   }
+//   console.log(obtenerChatStatus(['Ada']));
+//   console.log(obtenerChatStatus(['Ada', 'Grace']));
+//   console.log(obtenerChatStatus(['Ada', 'Grace', 'Marie']));
+//   console.log(obtenerChatStatus(['Ada', 'Grace', 'Marie','Grasiela']));
+
+
