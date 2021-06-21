@@ -40,3 +40,32 @@
 // console.log(crearCuentaRegresiva(5));
 // console.log(crearCuentaRegresiva(25));
 // console.log(crearCuentaRegresiva(100));
+
+// ---------- Ejercicio 5: Invertir
+    // --- la función reverse hace el trabajo sola.
+// const invertir =(array) =>{
+//     array.reverse();
+//   return array;
+// }
+
+// console.log(invertir([1, 2, 3]))
+// console.log(invertir([5, 7, 99, 34, 54, 2, 12]));
+
+// ---------- Ejercicio 6: Remover duplicados
+    // --- he creado un array vacío como cuna para los numeros. Entonces cuando el for visita cada indice de array (for (let i of array)), el pregunta se ese indice NO existe en el array valoresUnicos (!valoresUnicos). Si realmente no está, lo agrega, si está no hace nada. 
+// const removerDuplicados = (array) => {
+//     let valoresUnicos = [];
+//     for (let i of array) {
+//       if (!valoresUnicos.includes(i)){
+//         valoresUnicos.push(i);
+//       }
+//     }
+//      return valoresUnicos;
+//   }
+// console.log(removerDuplicados([1, 1, 1]));
+// console.log(removerDuplicados([1, 2, 1, 7, 6, 7]));
+// console.log(removerDuplicados([12, 15, 10]));
+
+
+
+//Definí una función removerDuplicados que tome por parámetros un array array y que devuelva un array con los mismos valores de array pero sin valores duplicados.
