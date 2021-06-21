@@ -68,4 +68,34 @@
 
 
 
-//Definí una función removerDuplicados que tome por parámetros un array array y que devuelva un array con los mismos valores de array pero sin valores duplicados.
+// ---------- Ejercicio 7:  Repetir letras
+    // --- un array vazio para recibir las letras. la palabra que si recibe como parámetro dividida por letras. Luego para cada letra de palabra, entramos en otro for que es para cada cuantidade que vino como segundo parámetro. O sea, para cada letra, hago el push para el array nuevaPalabra la cantidade de veces del parámetro. Luego uso el join para hacer del array un string. 
+
+// const repetirLetras = (string, qty) => {
+//     let nuevaPalabra = [];
+//     let palabra = string.split("");
+//     for (let letra of palabra){
+//       for (let i=0; i<qty; i++){
+//           nuevaPalabra.push(letra);
+//         }
+//       }
+//     return nuevaPalabra.join("");
+//   }
+
+// console.log(repetirLetras('hola', 2));
+// console.log(repetirLetras('ah!', 5));
+
+// ---------- Ejercicio 8:  Capitalizar Palabras
+    //--- string vacio, split y join tienen la misma función del anterior, la diferencia es que entre las comillas hay espacios pues separamos y juntamos por palabras, no más por letras. en el for decimos que cada palabra del string debe ser agragada al array vacío, pero el indice 0 de cada palabra, o sea, la primera letra debe ser reemplazada con toUpperCase. En replace palabra[0] si repite pues el primer parámetro dice o que debe ser reemplazado y el segundo dice de que manera.
+// const capitalizarPalabras = (string) => {
+//     let palabrasCapitalizadas = [];
+//     let stringSplit = string.split(" ");
+//     for (let palabra of stringSplit){
+//       palabrasCapitalizadas.push(palabra.replace(palabra[0],palabra[0].toUpperCase()));
+  
+//     } return palabrasCapitalizadas.join(" ");
+  
+//   }
+
+//   console.log( capitalizarPalabras('Esto es un título'));
+//   console.log( capitalizarPalabras('hola, soy grasiela rosa.'));
