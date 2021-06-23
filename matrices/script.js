@@ -28,6 +28,7 @@
 //  console.log(sumar([[4, 5],[2, 7, 1],[8, 10],]));
 
 // --------------- Ejercicio 3: Es matriz cuadrada
+    // --- para cada "arrays" de matriz, el for entra y descubre cuantos indices hay. Luego de eso compara el tamaño de la matriz (cuantos arrays tiene) con el tamaño de los arrays (cuantos índices tiene). Si esa comparación es equivalente, devuelve true.
 
 // const esMatrizCuadrada = (matriz) => {
 //     for (let arrays of matriz){
@@ -39,4 +40,22 @@
 
 //  console.log(esMatrizCuadrada([[4, 5],[2, 7, 1],[8, 10],]) );
 //  console.log(esMatrizCuadrada([[4, 5, 9],[2, 7, 1],[8, 10, 5],]));
- 
+
+// --------------- Ejercicio 4: Generar grilla
+    // --- creamos los 3 parámetros. Luego declaramos un array vacío (grilla) que va recibir la cantidad de filas que el primer for encuentre. Para cada fila, el segundo for creará índices (columna), y en el array columna vacío vá poniendo los ítems de manera aleatória. En el array grilla, subimos lo que se encuentre en columna. Más graficamente: llego a la linea 1, entro en la columna uno, hago el push de los items aleatórios, salgo de la columna uno, hago el push de esa columna para la grilla. Voy para la línea dos y así por delante. 
+    
+
+// const generarGrilla = (filas, columnas, items) => {
+//     let grilla = [];
+//     for (let i=0; i<filas; i++){
+//         let columna = []
+//         for (let j=0; j<columnas; j++){
+//             columna.push(items[Math.floor(Math.random()*items.length)])
+//         }
+//         grilla.push(columna);
+//     }
+//     return grilla;
+// }
+
+// console.log(generarGrilla(2, 3, [1, 2]));
+// console.log(generarGrilla(3, 3, ['a', 'b', 'c']));
